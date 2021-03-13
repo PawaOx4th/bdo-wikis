@@ -1,0 +1,18 @@
+.logo {
+  &--group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &--image {
+    width: 2rem;
+    height: auto;
+  }
+
+  &--title {
+    margin-bottom: 0px;
+    margin-left: 1rem;
+  }
+}

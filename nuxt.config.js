@@ -41,6 +41,22 @@ export default {
       // https://go.nuxtjs.dev/pwa
       '@nuxtjs/pwa',
    ],
+   bootstrapVue: {
+      components: ['BContainer', 'BRow', 'BCol', 'BFormInput', 'BButton', 'BTable', 'BModal', 'BNavbar', 'BNavbarNav', 'BNavbarBrand', 'BNavbarToggle', 'BInputGroup', 'BInputGroupAppend', 'BInputGroupText', 'BInputGroupAddon', 'BInputGroupPrepend', 'BCard', 'BCardHeader', 'BCardFooter', 'BCardBody', 'BCardTitle', 'BCardSubTitle', 'BCardImg', 'BCardImgLazy', 'BCardText', 'BCardGroup'],
+      directives: ['VBModal', 'VBPopover', 'VBTooltip', 'VBScrollspy'],
+      componentPlugins: [
+         'LayoutPlugin',
+         'FormPlugin',
+         'FormCheckboxPlugin',
+         'FormInputPlugin',
+         'FormRadioPlugin',
+         'ToastPlugin',
+         'ModalPlugin',
+         'NavbarPlugin',
+         'InputGroupPlugin',
+         'CardPlugin'
+      ],
+   },
 
    // Axios module configuration: https://go.nuxtjs.dev/config-axios
    axios: {},
